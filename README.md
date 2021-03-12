@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to tell the browser what you are creating with HTML. You
+use a set of HTML tags that specify to the web browser how to interpret & 
+execute your code. This requires the developer to use HTML tags for their intended purposes. It also makes your code more readable to future developers since they know
+semantic tags to look for while reviewing your code. It also can help your code become
+more modular if you are reusing semantic tags throughout your code. This is because
+CSS properties applied to reused tags will appear multiple times throughout the site, preventing you from having to rewrite CSS.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display block will take up the full width of the div it's within before printing the next element below it. Inline will allow the elements to print on the same line-- side by side.
 
 3. What are the 4 areas of the box model?
 
+Content, Padding, Border, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The y axis of the div it's applied to.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a developer to control what version of software they're working on. This is important if they want to test new things, but don't want to break the production version of their code. Using git, devs can make 'save points', similar to a video game. If a dev starts coding a new feature and then realizes that they spent the last 5 hours writing spaghetti code that breaks the rest of the production code, they don't have to merge the branch they've been writing for the past 5 hours, but they have the opportunity to test it alongside the rest of the codebase. In addition to this, git allows devs to perform these features in a collaborative manner with other developers. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
